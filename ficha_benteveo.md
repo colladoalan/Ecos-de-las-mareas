@@ -7,6 +7,13 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre el barco
 
 ---
 
+![Referencia real 1 — navegando, logo del pájaro en la vela](assets/benteveo_ref_1.jpg)
+![Referencia real 2 — nombre en el espejo de popa, vela con logo](assets/benteveo_ref_2.jpg)
+![Referencia real 3 — vista de popa, borda de teca visible](assets/benteveo_ref_3.jpg)
+*Fotos de referencia actualizadas del equipo (reemplazan a la tanda anterior) — confirman el timón único, la matrícula 620772, el nombre "Benteveo" pintado en el espejo de popa, la bandera argentina en el pushpit de popa, la borda de teca a lo largo de la cubierta, y suman el logo nuevo: un pájaro estilizado tipo origami en la vela mayor, blanca y prolija con un panel de contraste azul marino — ya no se ve como vela vieja/destiñida.*
+
+---
+
 ## Resolución de diseño
 
 El Benteveo está basado en las proporciones y el diseño real de un velero de planeo (planing cruiser) botado en 2025 — para 2065, cuando transcurre la historia, tiene **40 años**. No es un velero flamante: es el mismo barco, pero curtido por cuatro décadas de uso, mantenimiento y cariño familiar. Esto concilia dos cosas que parecían contradictorias: proporciones y arquitectura náutica reales y precisas, con la estética envejecida y "atada con alambre" que define al personaje de Tomás y a la lógica analógica de toda la película.
@@ -35,7 +42,12 @@ Importante: el Benteveo es viejo, pero la familia lo ama y lo mantiene con esmer
 - **Motor(es):** el fueraborda original fue reemplazado con los años por un **fueraborda eléctrico moderno**, que es el que la familia usa normalmente (y el que muere con el bloqueo digital de Vortex). Como respaldo, guardan bajo cubierta un **segundo fueraborda, a combustible (nafta), viejo**, que Tomás saca y monta a mano en el soporte de popa cuando el eléctrico falla — 100% mecánico, sin ningún componente digital, por eso el bloqueo de Vortex no lo alcanza. No es un motor de fábrica ni una instalación fija: es un repuesto de emergencia que Tomás mantiene funcionando por las dudas, y montarlo en plena tormenta es una escena propia.
 - **Instrumentación:** como pasa hoy con veleros reales de los años 80 que siguen navegando con electrónica actualizada, el Benteveo tiene el casco y la estructura originales pero el tablero fue modernizado con el tiempo — mezcla de instrumentos analógicos viejos (brújula, indicadores mecánicos) con paneles holográficos más nuevos instalados encima (carta de navegación, velocímetro, datos de A.Q.U.A.). Esos elementos holográficos son justamente los que mueren con el bloqueo de Vortex, obligando a Clara a recurrir al mapa de papel y la brújula de bronce del abuelo.
 - **Interior:** el mismo layout de fábrica (camarote de proa con cama en V, salón principal con mesa central y sofás, cocina chica cerca de la escalera, baño, dos camarotes más a popa bajo la bañera), pero con 40 años de objetos, reparaciones y personalización familiar encima — mapas, fotos, herramientas, el baúl del abuelo Vicente guardado en el salón.
-- **Matrícula / número de vela:** 620772, pintado en el casco (cerca de la proa) y/o en la vela mayor — visible en los planos exteriores donde se ve bien el costado del barco.
+- **Matrícula / número de vela:** 620772, pintado en el costado del casco (a la altura media/popa, no en la proa — corregido con fotos reales) y/o en la vela mayor — visible en los planos exteriores donde se ve bien el costado del barco.
+- **Nombre en el espejo de popa:** "Benteveo" pintado en letras cursivas/clásicas en el espejo de popa (la parte de atrás del casco), con "Mar del Plata" y "Argentina" en letra más chica debajo — la forma tradicional en que los barcos llevan su nombre y puerto de origen. Confirmado con fotos reales — hay que sumarlo al descriptor fijo.
+- **Bandera argentina** en el pushpit de popa (el pasamanos de atrás).
+- **Logo:** un pájaro estilizado tipo origami (formas angulares, geométricas), en color teal oscuro, impreso en la vela mayor a la altura de la cabeza — es el emblema del "Benteveo".
+- **Borda de teca:** una franja de madera de teca recorre el borde superior del casco (caprail), a lo largo de toda la cubierta.
+- **Vela mayor:** blanca, prolija y en buen estado, con un panel de contraste azul marino en la baluma (el borde de atrás de la vela) — no se ve vieja ni desteñida (las velas se cambian más seguido que el casco, así que lucen más nuevas).
 
 ## Descriptor fijo para prompts (usar siempre igual)
 
@@ -49,11 +61,18 @@ position is an OPEN-AIR COCKPIT AT THE STERN, exposed to the sky and sea — the
 enclosed wheelhouse, pilothouse, or indoor helm station of any kind; the wheel is always 
 outdoors, on deck, in the open cockpit. Evenly sun-faded white gelcoat, clean and waxed, with 
 one or two neat, well-kept repairs (never sloppy or dirty patches). The registration number 
-"620772" is painted near the bow on the hull. A single modern-size sailing wheel with a 
+"620772" is painted on the hull's topsides, roughly amidships-to-aft (not near the bow). The 
+name "Benteveo" is painted in classic cursive lettering on the transom (the flat stern face), with 
+"Mar del Plata" and "Argentina" in smaller lettering just below it — the traditional way a boat 
+displays its name and home port. An Argentine flag flies from the stern pushpit rail. A single 
+modern-size sailing wheel with a 
 teak-veneer rim on a slim aluminum pedestal, mounted in the open cockpit, in its correct normal 
 orientation — the compass/instrument console on the pedestal faces the helmsman, never 
-mirrored or backwards. Composite deck with minor teak trim accents, clean and tidy, old but 
-well-kept canvas mainsail in a faded tan-canela tone. Below deck, a separate small cabin has 
+mirrored or backwards. Composite deck with a teak wood caprail running along the top edge of the hull. A crisp, 
+well-kept white mainsail with a dark navy blue accent panel along the leech, printed with the 
+"Benteveo" emblem — a stylized angular bird logo, origami-style, in dark teal — roughly at 
+head height on the sail (sails get replaced periodically, so they look newer than the hull). 
+Below deck, a separate small cabin has 
 warm wood interior paneling — but that is belowdecks, never where the wheel is. The 
 instrument panel at the cockpit mixes old analog dials and a worn brass compass with newer 
 holographic navigation displays retrofitted over the years — an aged modern hull with visibly 
