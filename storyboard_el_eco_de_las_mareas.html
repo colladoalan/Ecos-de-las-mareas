@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Eco de las Mareas — Storyboard del Tráiler v2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B1826;
+    --ink-2:#122236;
+    --paper:#EFE6D2;
+    --paper-2:#E4D8BC;
+    --paper-line:#C9BC9E;
+    --teal:#2DD4C8;
+    --teal-dim:#1a8f86;
+    --copper:#C97B4A;
+    --alert:#C24444;
+    --ink-text:#1c2b1f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Inter',sans-serif;
+    padding:0 0 80px 0;
+  }
+  .hero{
+    padding:72px 24px 48px;
+    text-align:center;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(45,212,200,0.12), transparent 60%),
+      var(--ink);
+    border-bottom:1px solid rgba(239,230,210,0.15);
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    font-size:12px;
+    color:var(--teal);
+    margin-bottom:18px;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-optical-sizing:auto;
+    font-weight:600;
+    font-size:clamp(34px,6vw,64px);
+    margin:0 0 8px;
+    line-height:1.05;
+  }
+  .subtitle{
+    font-family:'Fraunces',serif;
+    font-style:italic;
+    font-weight:400;
+    color:#a9b8c2;
+    font-size:clamp(16px,2.4vw,20px);
+    margin-bottom:28px;
+  }
+  .meta-row{
+    display:flex;
+    justify-content:center;
+    gap:28px;
+    flex-wrap:wrap;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:#9fb0bb;
+  }
+  .meta-row span b{color:var(--paper);font-weight:600;}
+
+  .legend{
+    max-width:760px;
+    margin:36px auto 0;
+    padding:16px 20px;
+    border:1px dashed rgba(239,230,210,0.25);
+    border-radius:4px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    line-height:1.7;
+    color:#a9b8c2;
+    text-align:left;
+  }
+  .legend b{color:var(--paper);}
+  .swatch{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle;}
+
+  .alert-box{
+    max-width:760px;
+    margin:20px auto 0;
+    padding:16px 20px;
+    border:1px solid rgba(194,68,68,0.5);
+    border-radius:4px;
+    background:rgba(194,68,68,0.08);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    line-height:1.7;
+    color:#e8b8b8;
+    text-align:left;
+  }
+  .alert-box b{color:#f2d0d0;}
+
+  .board{
+    max-width:1040px;
+    margin:56px auto 0;
+    padding:0 24px;
+    display:flex;
+    flex-direction:column;
+    gap:28px;
+  }
+
+  .panel{
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:0;
+    border-radius:6px;
+    overflow:hidden;
+    box-shadow:0 18px 40px -20px rgba(0,0,0,0.6);
+    position:relative;
+  }
+  .panel.paper{ background:var(--paper); color:var(--ink-text); }
+  .panel.digital{ background:linear-gradient(160deg,#0d1c2b,#081019); color:var(--paper); border:1px solid rgba(45,212,200,0.25); }
+  .panel.mixed{ background:linear-gradient(100deg,var(--paper) 48%, #081019 52%); }
+
+  .frame{
+    background:#0000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:18px;
+    border-right:1px solid rgba(0,0,0,0.08);
+  }
+  .panel.digital .frame{ border-right:1px solid rgba(45,212,200,0.2); }
+  .frame svg{ width:100%; height:auto; max-height:200px; }
+
+  .content{ padding:22px 26px 24px; }
+  .row-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:12px;
+    margin-bottom:10px;
+    flex-wrap:wrap;
+  }
+  .tc{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    letter-spacing:.03em;
+    opacity:.75;
+  }
+  .shot-num{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    opacity:.55;
+  }
+  h3{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:22px;
+    margin:0 0 10px;
+  }
+  .desc{
+    font-size:14.5px;
+    line-height:1.55;
+    margin:0 0 14px;
+    max-width:58ch;
+  }
+  .dialogue{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;
+    line-height:1.7;
+    padding:10px 14px;
+    border-left:2px solid var(--copper);
+    background:rgba(0,0,0,0.04);
+    margin:0 0 10px;
+    white-space:pre-wrap;
+  }
+  .panel.digital .dialogue, .panel.mixed .dialogue{
+    border-left:2px solid var(--teal);
+    background:rgba(45,212,200,0.06);
+  }
+  .sfx{
+    font-size:12px;
+    opacity:.7;
+    font-style:italic;
+  }
+  .sfx b{ font-style:normal; opacity:1; }
+
+  .divider{
+    max-width:1040px;
+    margin:8px auto;
+    padding:0 24px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:#5f7280;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+  }
+  .divider::before,.divider::after{
+    content:'';
+    flex:1;
+    height:1px;
+    background:rgba(239,230,210,0.12);
+  }
+
+  .title-card{
+    max-width:1040px;
+    margin:0 auto;
+    padding:36px 24px;
+    text-align:center;
+    background:linear-gradient(180deg,#081019,#0B1826);
+    border:1px solid rgba(45,212,200,0.25);
+    border-radius:6px;
+  }
+  .title-card .tc-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+    color:var(--teal);
+    margin-bottom:10px;
+  }
+  .title-card .tc-text{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:clamp(20px,3.4vw,32px);
+    letter-spacing:.02em;
+  }
+  .title-card .tc-sub{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:#a9b8c2;
+    margin-top:8px;
+  }
+
+  .end-card{
+    max-width:1040px;
+    margin:40px auto 0;
+    padding:0 24px;
+  }
+  .end-card .box{
+    border:1px solid rgba(45,212,200,0.3);
+    border-radius:6px;
+    padding:20px 24px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    line-height:1.7;
+    color:#a9b8c2;
+    background:rgba(45,212,200,0.04);
+  }
+
+  @media (max-width:640px){
+    .panel{ grid-template-columns:1fr; }
+    .frame{ border-right:none; border-bottom:1px solid rgba(0,0,0,0.08); }
+    .panel.mixed{ background:var(--paper); }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="eyebrow">Future Vision XPRIZE — Storyboard v2 (según guion oficial MESA CHICA)</div>
+  <h1>EL ECO DE LAS MAREAS</h1>
+  <div class="subtitle">The Echo of the Tides — Storyboard del tráiler</div>
+  <div class="meta-row">
+    <span>Duración: <b>~3:00</b> + 15s sponsor card</span>
+    <span>MESA CHICA: <b>Mariana · Delfina · Alan</b></span>
+    <span>Familia <b>Martínez</b> · A.Q.U.A. · 2065</span>
+  </div>
+
+  <div class="legend">
+    <span class="swatch" style="background:var(--paper)"></span><b>Panel claro</b> — mundo analógico / familia / calma &nbsp;·&nbsp;
+    <span class="swatch" style="background:#0d1c2b;border:1px solid var(--teal)"></span><b>Panel oscuro</b> — Vortex Corp / amenaza digital &nbsp;·&nbsp;
+    <span class="swatch" style="background:linear-gradient(90deg,var(--paper) 50%, #0d1c2b 50%)"></span><b>Panel mixto</b> — lo analógico enfrenta a lo digital<br>
+    Actualizado en base a "PROMPTS_Técnicos_para_Trailer.pdf" y "TRAILER_VERSION_1_26-07-2026.pdf". Diálogos en español (subtítulos en inglés para XPRIZE, a definir). Bocetos propios, sin stock de terceros.
+  </div>
+
+  <div class="alert-box" style="border-color:rgba(45,212,200,0.5);background:rgba(45,212,200,0.06);color:#bfe8e2;">
+    <b>✓ Resuelto con el equipo:</b><br>
+    1) El Benteveo usa normalmente un fueraborda eléctrico moderno, que muere con el bloqueo digital. Como respaldo, guardan bajo cubierta un segundo fueraborda a nafta, viejo, que Tomás saca y monta a mano en el soporte de popa — 100% mecánico, fuera del alcance del bloqueo. No es un motor de fábrica, es el repuesto de emergencia que mantiene a punto por las dudas.<br>
+    2) El cierre en atardecer es intencional y no cronológico: la escena anterior (clímax en el Nodo 7) sostiene la tensión al máximo, y el corte a la calma del atardecer es el respiro emocional de cierre — recurso normal de montaje de tráiler.<br>
+    3) Duración confirmada: 3:00 + 15s de sponsor card.
+  </div>
+</div>
+
+<div class="board">
+
+  <!-- CLIP 01 -->
+  <div class="panel digital">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#081019"/>
+        <path d="M0 60 Q70 40 140 60 T280 55" stroke="#1a2a38" stroke-width="30" fill="none"/>
+        <rect x="110" y="90" width="60" height="80" rx="4" fill="#0d1c2b" stroke="#2DD4C8" stroke-width="1.5"/>
+        <circle cx="140" cy="115" r="10" fill="#C24444"/>
+        <circle cx="140" cy="115" r="16" fill="none" stroke="#C24444" stroke-width="1" opacity="0.5"/>
+        <rect x="120" y="140" width="40" height="6" fill="#2DD4C8" opacity="0.6"/>
+        <rect x="120" y="152" width="25" height="6" fill="#2DD4C8" opacity="0.3"/>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 01</span><span class="tc">0:00 — 0:20</span></div>
+      <h3>El Nodo Ancla 7</h3>
+      <p class="desc">Plano aéreo nocturno sobre el embravecido Atlántico Sur. La cámara desciende en picada sobre el Nodo Ancla 7 de A.Q.U.A. — un complejo disperso de módulos circulares con domo de invernadero conectados por puentes, más un brazo ramificado, de perfil bajo (nada de plataforma alta). Insert: una luz de diagnóstico en un servidor cuántico parpadea de azul a rojo intenso. FX: un pulso de distorsión electromagnética recorre la pantalla.</p>
+      <div class="dialogue">VO CLARA: "En 2030, la humanidad entendió que el hambre no se vencía compitiendo... sino abriendo el conocimiento al mar. Sin colaboración la garantía de supervivencia podría fallar."</div>
+      <div class="sfx"><b>Música/SFX:</b> zumbido sintético profundo que se corta de golpe con un glitch digital.</div>
+    </div>
+  </div>
+
+  <!-- CLIP 02 -->
+  <div class="panel paper">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#E4D8BC"/>
+        <rect x="0" y="120" width="280" height="80" fill="#cbb98f"/>
+        <circle cx="90" cy="140" r="18" fill="#C97B4A"/>
+        <rect x="82" y="132" width="16" height="4" fill="#5a3a20"/>
+        <rect x="150" y="80" width="34" height="44" rx="3" fill="none" stroke="#4a5a52" stroke-width="2"/>
+        <line x1="150" y1="92" x2="184" y2="92" stroke="#4a5a52" stroke-width="1"/>
+        <circle cx="220" cy="150" r="9" fill="#7a5a3a"/>
+        <g fill="#2DD4C8">
+          <circle cx="240" cy="90" r="4"/><circle cx="255" cy="100" r="3"/>
+        </g>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 02</span><span class="tc">0:20 — 0:45</span></div>
+      <h3>El asado del 2065</h3>
+      <p class="desc">Toma aérea de dron descendiendo sobre la playa principal de Mar del Plata (Playa Bristol) al atardecer, con el Hotel Provincial y el Casino Central bien visibles sobre la costa de arena, sin acantilados. Corte a mediodía radiante en la terraza de la casa Martínez. Tomás Martínez (45) da vuelta un corte de carne en la parrilla, riendo, con drones pajarito trayendo servilletas y especias. Mateo (15) mira su visor holográfico con apatía. Sofía (9) corre por el deck con Alfi, que parpadea feliz. Corte a Clara (42) frente a su terminal, revisando gráficos verdes de A.Q.U.A.; apaga la pantalla y se une a la mesa.</p>
+      <div class="dialogue">MATEO (rodando los ojos): "Otra vez carne con gusto a alga..."
+TOMÁS: "Carne de carbono negativo, hijo. Tu abuelo pagaría por probar esto. Ponele chimichurri. Sofi, decile a mamá que deje de trabajar."
+SOFÍA (riendo, gritando): "¡Mamááá, a comer!"
+CLARA (sonriendo, apaga la pantalla): "Todo en orden en A.Q.U.A. Fin de semana activado... ¿Quién está listo para navegar?"</div>
+      <div class="sfx"><b>Música/SFX:</b> brisa de verano, parrilla chisporroteando, chirridos suaves de Alfi.</div>
+    </div>
+  </div>
+
+  <!-- TEXT CARD -->
+  <div class="title-card">
+    <div class="tc-label">Fundido a negro</div>
+    <div class="tc-text">ESTE VERANO</div>
+    <div class="tc-sub">THIS SEASON</div>
+  </div>
+
+  <div class="divider">Bloque 2 — Zarpadura y amenaza de Vortex</div>
+
+  <!-- CLIP 03 -->
+  <div class="panel paper">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#E4D8BC"/>
+        <path d="M0 150 L280 150 L280 200 L0 200 Z" fill="#8fa9a5"/>
+        <path d="M60 150 L100 90 L180 90 L220 150 Z" fill="#c9bc9e" stroke="#5a4a30" stroke-width="2"/>
+        <rect x="135" y="55" width="6" height="60" fill="#5a4a30"/>
+        <path d="M141 60 L200 90 L141 100 Z" fill="#C97B4A"/>
+        <line x1="0" y1="150" x2="280" y2="150" stroke="#5a4a30" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 03</span><span class="tc">0:45 — 1:00</span></div>
+      <h3>Salida del puerto de Mar del Plata</h3>
+      <p class="desc">Aérea del puerto bajo una mañana radiante. El Benteveo sale del puerto y corta aguas calmas. La familia ya a bordo.</p>
+      <div class="dialogue">OFF RADIO / STREAMING: "Una mañana hermosa, ¿verdad? Se anuncia el mejor clima para este fin de semana largo de celebración, por los 35 años del fin de la hambruna global."</div>
+      <div class="sfx"><b>Música/SFX:</b> tono heroico, crescendo suave de cuerdas.</div>
+    </div>
+  </div>
+
+  <!-- CLIP 04 -->
+  <div class="panel digital">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#0d1c2b"/>
+        <circle cx="140" cy="90" r="34" fill="none" stroke="#2DD4C8" stroke-width="1.5" opacity="0.6"/>
+        <polygon points="140,60 150,85 175,85 155,100 163,125 140,110 117,125 125,100 105,85 130,85" fill="#C24444" opacity="0.85"/>
+        <rect x="20" y="150" width="240" height="6" fill="#1a2a38"/>
+        <rect x="20" y="150" width="90" height="6" fill="#C24444"/>
+        <text x="20" y="180" fill="#8fa0ac" font-family="monospace" font-size="10">SISTEMA BLOQUEADO</text>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 04</span><span class="tc">1:00 — 1:30</span></div>
+      <h3>El bloqueo y el holograma</h3>
+      <p class="desc">Las boyas parpadean en amarillo. Las pantallas del barco se apagan en fundido a negro con letras rojas: SISTEMA BLOQUEADO — el fueraborda eléctrico que usan normalmente muere con el bloqueo digital. Un dron corporativo negro sobrevuela el Benteveo, proyecta un avatar holográfico. Tomás baja y saca del pañol el fueraborda de repuesto, viejo, a nafta — lo monta en el soporte de popa a mano y lo arranca tirando del cordón: 100% mecánico, fuera del alcance del bloqueo. Toma el timón moderno de la bañera abierta.</p>
+      <div class="dialogue">TOMÁS: "¿Qué sucede?"
+CLARA: "No hay señal satelital... El Nodo 7 se está recalentando. ¿Cómo puede ser?"
+MATEO: "¡Los motores digitales no responden! ¡Estamos varados!"
+HOLOGRAMA (voz fría de IA): "Por el bien de su familia, deben volver a la costa."
+CLARA: "El drone es de VORTEX... Es un sabotaje."
+TOMÁS: "Si lo digital no funciona... la historia puede que sí."
+CLARA: "Mateo, intenta acceder al sistema de casa."
+MATEO: "¡No puedo vencer su algoritmo desde acá!"
+SOFÍA (asustada): "¿Qué pasa mamá?"
+CLARA: "¡Si no reiniciamos la plataforma en diez minutos, las huertas oceánicas colapsarán y el hambre volverá!"
+TOMÁS: "No es el único problema..." (señala al cielo)</div>
+      <div class="sfx"><b>Música/SFX:</b> silencio electrónico repentino, glitch de alarma, motor diésel analógico arrancando con un rugido.</div>
+    </div>
+  </div>
+
+  <!-- TAGLINE CARD -->
+  <div class="title-card">
+    <div class="tc-label">Locución tráiler</div>
+    <div class="tc-text" style="font-size:clamp(16px,2.6vw,24px)">DESAFÍA EL PELIGRO. VENCE A LA AMBICIÓN. SALVA A LA HUMANIDAD.</div>
+  </div>
+
+  <div class="divider">Bloque 3 — La tormenta sintética y el recuerdo</div>
+
+  <!-- CLIP 05 -->
+  <div class="panel paper">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#d8cba8"/>
+        <path d="M0 130 Q40 100 80 130 T160 130 T240 130 T280 120 V200 H0 Z" fill="#6f8f8b"/>
+        <rect x="120" y="60" width="10" height="70" fill="#4a3a20"/>
+        <circle cx="125" cy="55" r="16" fill="none" stroke="#4a3a20" stroke-width="4"/>
+        <path d="M60 20 L75 55 L50 55 Z" fill="#C97B4A" opacity="0.8"/>
+        <circle cx="200" cy="90" r="18" fill="#3a4a44"/>
+        <path d="M195 90 L205 90 M200 85 L200 95" stroke="#2DD4C8" stroke-width="1.5"/>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 05</span><span class="tc">1:30 — 1:50</span></div>
+      <h3>Montaje: tormenta sintética</h3>
+      <p class="desc">Montaje rápido: el Benteveo embiste olas de seis metros bajo una tormenta eléctrica feroz. Tomás ajusta una biela con una llave inglesa, resistiendo el viento fuerte. Clara en el puente sostiene una brújula de bronce física, iluminada por los rayos, marcando el rumbo. Mateo frente a una consola analógica, desglosando líneas de código manuscritas.</p>
+      <div class="dialogue">TOMÁS: "¡Oh por Dios!"
+MATEO: "¡Nos atacan!"
+SOFÍA: "Alfi sabe cómo vencerlos, Mateo... hay que hablarles como el mar."</div>
+      <div class="sfx"><b>Música/SFX:</b> trueno masivo, oleaje rugiente, música orquestal épica de alto tempo.</div>
+    </div>
+  </div>
+
+  <!-- CLIP 05b -->
+  <div class="panel paper">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#d8cba8"/>
+        <path d="M20 40 L90 40 L100 160 L10 160 Z" fill="#f2ead6" stroke="#7a6a48" stroke-width="2"/>
+        <line x1="30" y1="60" x2="80" y2="60" stroke="#7a6a48" stroke-width="1"/>
+        <line x1="30" y1="80" x2="85" y2="80" stroke="#7a6a48" stroke-width="1"/>
+        <rect x="140" y="50" width="50" height="60" fill="#c9a877" stroke="#5a3a20" stroke-width="2"/>
+        <circle cx="165" cy="72" r="10" fill="#8a6a48"/>
+        <rect x="210" y="55" width="45" height="55" fill="#c9a877" stroke="#5a3a20" stroke-width="2"/>
+        <polygon points="232,80 238,92 250,92 240,100 244,112 232,104 220,112 224,100 214,92 226,92" fill="#C24444" opacity="0.5"/>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 05b</span><span class="tc">1:50 — 2:05</span></div>
+      <h3>Los mapas del abuelo</h3>
+      <p class="desc">Corte al camarote de madera. Clara abre un viejo baúl metálico, despliega un mapa oceanográfico amarillento sellado "Talud Continental IV — 2025". Sofía y Alfi descubren, entre las fotos, una imagen de la "estrella culona". Foto enmarcada del abuelo Vicente en la expedición del Schmidt Ocean, y otra foto de Vicente en la corporación Vortex.</p>
+      <div class="dialogue">CLARA (VO): "Papá conocía este mar como nadie. Lo entendía. Sabía que el camino del futuro era por aquí si aprendíamos a respetarlo. En aquel entonces, Vortex ya tenía otros planes."</div>
+      <div class="sfx"><b>Música/SFX:</b> la música baja en intensidad; ambiente cálido de camarote entre truenos distantes.</div>
+    </div>
+  </div>
+
+  <div class="divider">Bloque 4 — Clímax y cierre</div>
+
+  <!-- CLIP 06a -->
+  <div class="panel mixed">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#0d1c2b"/>
+        <rect x="0" y="0" width="140" height="200" fill="#E4D8BC"/>
+        <circle cx="70" cy="100" r="14" fill="#C97B4A"/>
+        <path d="M70 106 Q60 130 40 130" stroke="#2DD4C8" stroke-width="2" fill="none"/>
+        <path d="M70 106 Q80 135 100 140" stroke="#2DD4C8" stroke-width="2" fill="none" opacity="0.6"/>
+        <polygon points="200,60 210,80 230,80 214,92 220,112 200,100 180,112 186,92 170,80 190,80" fill="#C24444" opacity="0.85"/>
+        <polygon points="240,110 248,126 265,126 251,136 257,152 240,142 223,152 229,136 215,126 232,126" fill="#C24444" opacity="0.6"/>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 06a</span><span class="tc">2:05 — 2:20</span></div>
+      <h3>Drones hostiles y Alfi</h3>
+      <p class="desc">Drones hostiles de Vortex emergen del mar, rodeando la base del Nodo 7 con luces rojas de fijación de blanco. Tomás intenta esquivarlos; el Benteveo demora en virar con el viento en contra. Sofía presiona a Alfi: el robot emite una onda azul bioluminiscente que se expande por el casco del barco y entra al agua.</p>
+      <div class="dialogue">MATEO: (grita)
+SOFÍA: (sostiene a Alfi con fuerza)</div>
+      <div class="sfx"><b>Música/SFX:</b> zumbido de drones, luego el estallido del pulso azul integrándose a la música.</div>
+    </div>
+  </div>
+
+  <!-- TEXT CARD -->
+  <div class="title-card">
+    <div class="tc-label">Fundido a negro</div>
+    <div class="tc-text" style="font-size:clamp(16px,2.6vw,22px)">MESA CHICA presenta</div>
+  </div>
+
+  <!-- CLIP 06b -->
+  <div class="panel digital">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#081019"/>
+        <path d="M0 140 Q40 120 80 140 T160 135 T240 140 T280 130 V200 H0 Z" fill="#0f2530"/>
+        <path d="M60 140 Q80 90 100 140" stroke="#2DD4C8" stroke-width="3" fill="none"/>
+        <path d="M170 140 Q195 100 220 140" stroke="#2DD4C8" stroke-width="3" fill="none" opacity="0.7"/>
+        <rect x="95" y="30" width="90" height="130" rx="4" fill="#0d1c2b" stroke="#2DD4C8" stroke-width="1.5"/>
+        <rect x="108" y="50" width="64" height="8" fill="#2DD4C8" opacity="0.7"/>
+        <rect x="108" y="66" width="64" height="8" fill="#2DD4C8" opacity="0.4"/>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CLIP 06b</span><span class="tc">2:20 — 2:45</span></div>
+      <h3>Fauna marina y reinicio</h3>
+      <p class="desc">Ballenas y delfines nadan y saltan en el mar embravecido; los drones de Vortex se desorientan y abren paso. Mateo y Clara corren por las pasarelas metálicas mojadas del Nodo 7 bajo rayos y centellas, y se paran frente a la pantalla terminal exterior, el viento azotando alrededor. Tomás abraza a Sofía; Alfi se acerca para que lo abracen también.</p>
+      <div class="dialogue">CLARA (gritando contra el viento): "¡Es ahora!"</div>
+      <div class="sfx"><b>Música/SFX:</b> canto de ballenas bajo el agua, clímax orquestal emotivo que se funde en una nota de piano suave.</div>
+    </div>
+  </div>
+
+  <!-- TEXT CARD: TITLE -->
+  <div class="title-card">
+    <div class="tc-label">Fundido a negro / abre a</div>
+    <div class="tc-text">EL ECO DE LAS MAREAS</div>
+  </div>
+
+  <!-- CLIP FINAL -->
+  <div class="panel paper">
+    <div class="frame">
+      <svg viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="280" height="200" fill="#f0d8ae"/>
+        <circle cx="140" cy="110" r="46" fill="#C97B4A" opacity="0.9"/>
+        <path d="M0 150 Q70 130 140 150 T280 145 V200 H0 Z" fill="#4a6a62" opacity="0.9"/>
+        <g fill="#2DD4C8" opacity="0.8">
+          <circle cx="60" cy="165" r="4"/><circle cx="80" cy="168" r="5"/><circle cx="98" cy="163" r="4"/>
+          <circle cx="200" cy="170" r="4"/><circle cx="220" cy="166" r="3"/>
+        </g>
+        <path d="M100 150 L110 110 L150 110 L165 150 Z" fill="#2a2a2a" opacity="0.7"/>
+        <line x1="128" y1="80" x2="128" y2="110" stroke="#2a2a2a" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="row-top"><span class="shot-num">CIERRE</span><span class="tc">2:45 — 3:00</span></div>
+      <h3>El atardecer sobre las huertas</h3>
+      <p class="desc">Plano medio de la familia Martínez unida en la cubierta del Benteveo, contemplando el horizonte en un hermoso atardecer. A la distancia, el brillo bioluminiscente del Nodo Ancla 7 todavía se ve en el horizonte, marcando de dónde vienen.</p>
+      <div class="dialogue">VO SOFÍA (serena): "El futuro no es algo que esperamos... es algo que construimos juntos y se protege como a una familia."
+LOC TRÁILER: "EL ECO DE LAS MAREAS. PRÓXIMAMENTE."</div>
+      <div class="sfx"><b>Música/SFX:</b> nota final amplia y resonante, piano suave, sonido limpio del océano.</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="end-card">
+  <div class="box">
+    <b>TAGLINE:</b> "ABRÁZATE A UNA AVENTURA EN FAMILIA EN EL MAR ARGENTINO."<br><br>
+    <b>BILLING BLOCK:</b> EL ECO DE LAS MAREAS — Escrita, dirigida y producida por MESA CHICA (Mariana Hernández · Delfina Haines · Alan Collado), con asistencia de herramientas de IA y digitales. Argentina, 2026.<br><br>
+    <b>TEXTO EN PANTALLA:</b> #FutureVisionXPRIZE<br><br>
+    <b>3:00 — 3:15 · SPONSOR END CARD</b> — placa oficial de 15 segundos provista por la organización del XPRIZE.
+  </div>
+</div>
+
+</body>
+</html>
