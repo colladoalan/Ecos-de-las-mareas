@@ -8,6 +8,9 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre Clara. E
 ![Ficha visual de referencia](assets/clara.jpg)
 *Ficha visual de referencia subida por el equipo.*
 
+![Ficha visual completa de Clara (referencia del equipo)](assets/clara_ficha_completa.jpg)
+*Ficha visual completa de Clara (referencia del equipo) — ficha completa con perfiles, expresiones, cuerpo entero y detalles.*
+
 ## Datos básicos
 
 - **Nombre completo:** Clara Vicente Martínez (el segundo nombre es en honor a su padre)

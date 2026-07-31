@@ -10,6 +10,9 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre Sofía. 
 ![Ficha visual de referencia](assets/sofia.jpg)
 *Ficha visual de referencia subida por el equipo.*
 
+![Ficha visual completa de Sofía (referencia del equipo)](assets/sofia_ficha_completa.jpg)
+*Ficha visual completa de Sofía (referencia del equipo) — ficha completa con perfiles, expresiones, cuerpo entero y detalles.*
+
 ## Datos básicos
 
 - **Nombre completo:** Sofía Martínez

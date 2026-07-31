@@ -45,8 +45,9 @@ beachfront. Bright normal light, no bioluminescent glow anywhere.
 **Plano 2.1 — 0:25–0:32 (7s)**
 ```
 Medium shot, static tripod camera, sunny coastal terrace in Mar del Plata. Tomás (45) turns over 
-meat on a futuristic barbecue grill, laughing. Two tiny bird-shaped drones fly softly into frame 
-carrying napkins. Ultra-realistic, warm sunlight, 35mm lens, gentle handheld sway.
+meat on a futuristic barbecue grill, laughing. Two small chrome dome-shaped domestic robots 
+(adaptive blue LED eyes, short articulated arms, no legs, gliding on a hidden base) move 
+smoothly into frame carrying napkins. Ultra-realistic, warm sunlight, 35mm lens, gentle handheld sway.
 ```
 
 **Plano 2.2 — 0:27–0:34 (7s)**

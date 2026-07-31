@@ -11,9 +11,7 @@ Este archivo define cómo se ve cada escenografía, independiente de qué person
 
 ## 1. Nodo Ancla 7
 
-**Punto de partida clave: NO tiene que parecer una plataforma petrolera.** Nada de torre alta con derrick, nada de silueta industrial clásica de perforación.
-
-**Geometría (referencia visual confirmada por el equipo):** mezcla de dos formas — una zona central de **varios módulos circulares grandes** (cada uno con un domo/lattice de invernadero y un patrón radial de cultivo adentro, con una torre-espiga central), conectados entre sí por **puentes/pasarelas**; y además **uno o dos brazos alargados** que se ramifican hacia afuera desde esa zona central, con más invernaderos e infraestructura, dándole al conjunto una silueta más orgánica y extendida en el agua (no todo son círculos prolijos, hay una parte que se estira).
+**Geometría:** mezcla de dos formas — una zona central de **varios módulos circulares grandes** (cada uno con un domo/lattice de invernadero y un patrón radial de cultivo adentro, con una torre-espiga central), conectados entre sí por **puentes/pasarelas**; y además **uno o dos brazos alargados** que se ramifican hacia afuera desde esa zona central, con más invernaderos e infraestructura, dándole al conjunto una silueta más orgánica y extendida en el agua (no todo son círculos prolijos, hay una parte que se estira).
 
 **Propuesta:**
 - Estructura **grande pero de perfil bajo** — nunca una sola torre alta; el complejo se esparce sobre una zona amplia del mar (varios cientos de metros). Grande en escala horizontal, no vertical — sigue dando la sensación de flotar sobre el agua (aunque en realidad está anclado al fondo marino con cables/fundaciones que no se ven desde la superficie).

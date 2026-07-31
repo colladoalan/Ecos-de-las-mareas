@@ -32,7 +32,7 @@ Warm amber sunrise light, soft mist over the water, cinematic wide-angle lens, h
 **Personajes:** Tomás (45), Mateo (15), Sofía (9) con Alfi.
 
 ```
-A wide aerial drone shot descends over Mar del Plata's main beach (Playa Bristol) at dusk, its flat sandy coastline and the Hotel Provincial and Casino Central visible below, before cutting to a bright, sunlit rooftop terrace overlooking the coastline. Tomás Martínez (45, dark hair with light grey at the temples, short well-groomed beard, deep brown eyes, sun-kissed skin, olive-green utility vest) tends a traditional Argentine barbecue (asado), while two small bird-shaped domestic drones flutter playfully nearby.
+A wide aerial drone shot descends over Mar del Plata's main beach (Playa Bristol) at dusk, its flat sandy coastline and the Hotel Provincial and Casino Central visible below, before cutting to a bright, sunlit rooftop terrace overlooking the coastline. Tomás Martínez (45, dark hair with light grey at the temples, short well-groomed beard, deep brown eyes, sun-kissed skin, olive-green utility vest) tends a traditional Argentine barbecue (asado), while two small chrome dome-shaped domestic robots — adaptive blue LED eyes, short articulated arms, no legs, gliding on a hidden base — move nearby, helping with the table.
 
 Mateo Martínez (15, dark wavy tousled hair, light hazel-green eyes, fair skin with light freckles, lean build, navy t-shirt, black sports watch, shell-pendant necklace) makes a subtle face of mild disgust tasting a piece of meat.
 

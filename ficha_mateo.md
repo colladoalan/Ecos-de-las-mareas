@@ -10,6 +10,9 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre Mateo. E
 ![Ficha visual de referencia](assets/mateo.jpg)
 *Ficha visual de referencia subida por el equipo.*
 
+![Ficha visual completa de Mateo (referencia del equipo)](assets/mateo_ficha_completa.jpg)
+*Ficha visual completa de Mateo (referencia del equipo) — ficha completa con perfiles, expresiones, cuerpo entero y detalles.*
+
 ## Datos básicos
 
 - **Nombre completo:** Mateo Martínez

@@ -64,7 +64,7 @@ Bright sunlit rooftop terrace of the Martínez home, overlooking Mar del Plata's
 ```
 **Prompt 2 — Video / cine:**
 ```
-Two tiny bird-shaped domestic drones fly softly into frame carrying napkins and spices, landing gently near the grill. Gentle handheld sway, natural warm daylight. Duration 7s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
+Two small chrome dome-shaped domestic robots (adaptive blue LED eyes, short articulated arms, no legs, gliding on a hidden base) glide smoothly into frame carrying napkins and spices, arriving gently near the grill. Gentle handheld sway, natural warm daylight. Duration 7s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
 ### Plano 2.2 — Mateo y Sofía (0:32–0:39)

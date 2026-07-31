@@ -8,6 +8,9 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre Alfi. Do
 ![Ficha visual de referencia](assets/alfi.jpg)
 *Diseño de referencia subido por el equipo.*
 
+![Segunda referencia de Alfi](assets/alfi_2.jpg)
+*Segunda imagen de referencia — mismo diseño (ojos ámbar, estrías azules), otro ángulo/ambiente.*
+
 ## Datos básicos
 
 - **Nombre:** Alfi
