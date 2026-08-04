@@ -134,7 +134,7 @@ Wide shot at water level of the Benteveo cutting smoothly through calm open blue
 Camera tracks parallel to the Benteveo at a steady speed, slight forward glide, heroic and free-flowing. Duration 8s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-## Escena 04 — El bloqueo (1:00–1:20)
+## Escena 04 — El bloqueo y el motor de repuesto (1:00–1:40)
 
 ### Plano 4.1 — Boyas en alerta (1:00–1:06)
 
@@ -175,9 +175,7 @@ Medium-wide, slightly low angle shot at dusk. A menacing black corporate drone h
 Drone holds position with a faint mechanical hover-bob; the hologram flickers to life mid-shot, casting moving red light across the family. Subtle handheld tension. Duration 8s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-## Escena 05 — El motor de repuesto (1:20–1:40)
-
-### Plano 5.1 — El motor eléctrico muere (1:20–1:26)
+### Plano 4.4 — El motor eléctrico muere (1:20–1:26)
 
 **Encuadre:** 85mm lens, f/2.8, static
 
@@ -190,7 +188,7 @@ Close-up insert of the Benteveo's modern electric outboard motor at the stern, d
 The last light on the outboard motor flickers once and dies completely. Static camera, no movement. Duration 6s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 5.2 — El motor de repuesto (1:26–1:33)
+### Plano 4.5 — El motor de repuesto (1:26–1:33)
 
 **Encuadre:** 50mm lens, f/2.2, handheld
 
@@ -203,7 +201,7 @@ Medium shot below deck. Tomás Martínez (45, dark hair with light grey at the t
 Tomás wrestles the motor free from the locker and hoists it toward the companionway stairs, muscles straining. Duration 7s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 5.3 — Arranca a pulso (1:33–1:40)
+### Plano 4.6 — Arranca a pulso (1:33–1:40)
 
 **Encuadre:** 50mm lens, f/2.8, static
 

@@ -55,9 +55,9 @@ Mateo (15, dark wavy hair, hazel-green eyes, freckles, navy t-shirt, black watch
 The port of Mar del Plata fades into the background under a clear afternoon sky. Cinematic wide shot, warm nostalgic color grade, gentle sense of departure.
 ```
 
-## Escena 04 — El bloqueo (1:00–1:20)
+## Escena 04 — El bloqueo y el motor de repuesto (1:00–1:40)
 
-**Personajes:** Mateo (15) en primer plano; familia implícita a bordo.
+**Personajes:** Mateo (15), Tomás (45), Clara (42); familia implícita a bordo.
 
 ```
 Dramatic dusk ocean scene, roughly 100km offshore, no coastline visible, the sky burning in deep orange, violet and dark blue as the sun sets behind the horizon.
@@ -66,23 +66,13 @@ The Benteveo floats in open water, its onboard screens flickering out one by one
 
 Mateo Martínez (15, dark wavy hair, light hazel-green eyes, fair skin with freckles, navy t-shirt) stares at a dead phone screen with a tense expression.
 
-Warm dusk sky contrasted with cold intrusive red hologram light, high-tech ominous atmosphere, cinematic low-angle shot, sense of sudden danger.
-```
+Dusk turning to night. Tomás Martínez (45, dark hair with light grey at the temples, short well-groomed beard, deep brown eyes, sun-kissed skin — wind-blown, damp, disheveled after the motor swap — olive-green utility vest) hauls a heavy, oily old fuel outboard motor out of a cramped below-deck storage locker, straining with the weight, warm interior lamplight against the darkening sky visible through a porthole.
 
-## Escena 05 — El motor de repuesto (1:20–1:40)
-
-**Personajes:** Tomás (45), Clara (42).
-
-```
-Dusk turning to night on open water. Tomás Martínez (45, dark hair with light grey at the temples, short well-groomed beard, deep brown eyes, sun-kissed skin — wind-blown, damp, disheveled after the motor swap — olive-green utility vest) hauls a heavy, oily old fuel outboard motor out of a cramped below-deck storage locker, straining with the weight, warm interior lamplight against the darkening sky visible through a porthole.
-
-He carries it up through the companionway and mounts it onto the transom bracket at the stern, clamping it down with practiced hands, storm clouds gathering on the horizon behind him.
-
-He grips the pull-cord and yanks — the old engine sputters, catches, and roars to life, a puff of exhaust visible in the cold air.
+He carries it up through the companionway and mounts it onto the transom bracket at the stern, clamping it down with practiced hands, storm clouds gathering on the horizon behind him. He grips the pull-cord and yanks — the old engine sputters, catches, and roars to life, a puff of exhaust visible in the cold air.
 
 In a parallel framing, Clara Martínez (42, wavy chestnut-brown hair, light blue-grey eyes, navy jacket) grips the modern sailing wheel in the open-air cockpit at the stern firmly, steering toward the storm on the horizon instead of away from it.
 
-Warm amber lamplight against a cold blue-grey stormy backdrop, tactile analog machinery textures, cinematic determination, photorealistic.
+Warm dusk sky contrasted with cold intrusive red hologram light early on, shifting to warm amber lamplight against a cold blue-grey stormy backdrop by the motor swap, high-tech ominous atmosphere giving way to tactile analog machinery textures, cinematic determination, photorealistic.
 ```
 
 ## Escena 06 — La tormenta sintética (1:40–2:10)

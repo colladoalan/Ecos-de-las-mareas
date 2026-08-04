@@ -91,7 +91,7 @@ near the bow. It sails out into calm blue open sea, cutting smoothly through the
 
 ---
 
-## Escena 04 — El bloqueo (1:00–1:20)
+## Escena 04 — El bloqueo y el motor de repuesto (1:00–1:40)
 
 **Plano 4.1 — 1:00–1:06 (6s)**
 ```
@@ -113,24 +113,20 @@ black corporate drone hovers over the Benteveo in open sea at dusk. A glowing co
 hologram projects upward from a tablet screen, casting red light on the family's startled faces.
 ```
 
----
-
-## Escena 05 — El motor de repuesto (1:20–1:40)
-
-**Plano 5.1 — 1:20–1:26 (6s)**
+**Plano 4.4 — 1:20–1:26 (6s)**
 ```
 Close-up insert, static camera, on the Benteveo's modern electric outboard motor — dead, silent, a
 single warning light fading out completely. Cold dim light, dusk turning to night.
 ```
 
-**Plano 5.2 — 1:26–1:33 (7s)**
+**Plano 4.5 — 1:26–1:33 (7s)**
 ```
 Medium shot, handheld, below deck. Tomás (45) hauls a heavy, oily old fuel outboard motor out
 of a cramped storage locker, straining with the weight, warm lamplight against the darkening
 sky visible through a porthole, then carries it up through the companionway.
 ```
 
-**Plano 5.3 — 1:33–1:40 (7s)**
+**Plano 4.6 — 1:33–1:40 (7s)**
 ```
 Medium shot, static camera, at the stern transom. Tomás mounts the old outboard onto the
 bracket, clamps it down, grips the pull-cord and yanks — it sputters, catches, and roars to life,
