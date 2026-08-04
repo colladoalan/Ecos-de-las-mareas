@@ -75,7 +75,7 @@ In a parallel framing, Clara Martínez (42, wavy chestnut-brown hair, light blue
 Warm dusk sky contrasted with cold intrusive red hologram light early on, shifting to warm amber lamplight against a cold blue-grey stormy backdrop by the motor swap, high-tech ominous atmosphere giving way to tactile analog machinery textures, cinematic determination, photorealistic.
 ```
 
-## Escena 06 — La tormenta sintética (1:40–2:10)
+## Escena 05 — La tormenta sintética (1:40–2:10)
 
 **Personajes:** Tomás (45), Clara (42), Mateo (15); foto de Dr. Vicente Olivera.
 
@@ -89,7 +89,7 @@ Nearby, Mateo Martínez (15, dark wavy hair, light hazel-green eyes, freckles, n
 Dramatic chiaroscuro lighting, lightning flashes through portholes, tense cinematic composition, photorealistic.
 ```
 
-## Escena 07 — El cerco (2:10–2:30)
+## Escena 06 — El cerco (2:10–2:30)
 
 **Personajes:** Sofía (9) con Alfi; familia implícita a bordo.
 
@@ -103,7 +103,7 @@ Beneath the waves, silhouettes of whales and dolphins glow faintly blue, gliding
 High contrast between menacing red machine light and calming blue organic bioluminescence, cinematic wide shot, awe and tension combined, photorealistic.
 ```
 
-## Escena 08 — El código abierto (2:30–2:50)
+## Escena 07 — El código abierto (2:30–2:50)
 
 **Personajes:** Clara (42), Mateo (15).
 
@@ -117,7 +117,7 @@ In the distance, visible through the storm, chains of bioluminescent ocean farms
 Dramatic rim lighting, turquoise and amber glow against stormy blue-black sky, triumphant cinematic wide shot, photorealistic.
 ```
 
-## Escena 09 — El regreso (2:45–3:00)
+## Escena 08 — El regreso (2:45–3:00)
 
 **Personajes:** Clara (42), Tomás (45), Mateo (15), Sofía (9).
 

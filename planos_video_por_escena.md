@@ -133,15 +133,15 @@ bracket, clamps it down, grips the pull-cord and yanks — it sputters, catches,
 a puff of exhaust visible. Storm clouds gathering on the horizon behind him.
 ```
 
-*(La determinación de Clara al timón, dirigiendo el barco hacia la tormenta, se fusiona con la apertura de la Escena 06 — ver Plano 6.1.)*
+*(La determinación de Clara al timón, dirigiendo el barco hacia la tormenta, se fusiona con la apertura de la Escena 05 — ver Plano 5.1.)*
 
 ---
 
-## Escena 06 — La tormenta sintética y el recuerdo (1:40–2:10)
+## Escena 05 — La tormenta sintética y el recuerdo (1:40–2:10)
 
 **Nota (ya no es un problema):** esta escena tiene 5 planos, lo que puede sumar más de los 30s originales del bloque — no hace falta que las duraciones de los planos calcen exacto con los bloques de tiempo del guion. Eso se ajusta en edición (recortando o extendiendo cada clip al armar el corte final). Las duraciones acá son solo una guía de referencia para generar cada clip, no un límite estricto.
 
-**Plano 6.1 — 1:40–1:47 (7s)**
+**Plano 5.1 — 1:40–1:47 (7s)**
 ```
 Fast-paced action shot, dynamic handheld camera. Clara (42) grips the modern sailing wheel in the open-air cockpit
 with determination, steering the Benteveo directly into massive six-meter ocean waves under a
@@ -149,25 +149,25 @@ dark, apocalyptic synthetic electrical storm — powerful wind and frequent gian
 illuminating the black sea, wind-driven spray flying off the wave tops, no heavy rain. IMAX-scale drama, photorealistic water.
 ```
 
-**Plano 6.2 — 1:47–1:53 (6s)**
+**Plano 5.2 — 1:47–1:53 (6s)**
 ```
 Medium close-up, static camera, wind gusting hard. Tomás (45) tightens a steel pipe with a 
 wrench braced against the wind, focused and windswept. Lightning flash lights the scene intermittently.
 ```
 
-**Plano 6.3 — 1:53–1:59 (6s)**
+**Plano 5.3 — 1:53–1:59 (6s)**
 ```
 Medium close-up, static camera. Clara (42) stands at the bridge holding an old physical brass 
 compass, illuminated by a lightning strike, reading the direction with total focus.
 ```
 
-**Plano 6.4 — 1:59–2:05 (6s)**
+**Plano 5.4 — 1:59–2:05 (6s)**
 ```
 Close-up, static camera, slight push-in. Mateo (15), pale with worry, works at an analog console 
 covered in hand-drawn code schematics, cables and analog switches lit by a single work lamp.
 ```
 
-**Plano 6.5 — 2:05–2:10 (5s)**
+**Plano 5.5 — 2:05–2:10 (5s)**
 ```
 Medium shot inside the Benteveo's wooden cabin, static camera. Clara opens an old metal chest, 
 unfolds a yellowed paper oceanographic map stamped "Talud Continental IV — 2025". A framed 
@@ -177,22 +177,22 @@ photo of the "estrella culona" sea star. Warm lamplight against the stormy blue 
 
 ---
 
-## Escena 07 — El cerco (2:10–2:30)
+## Escena 06 — El cerco (2:10–2:30)
 
-**Plano 7.1 — 2:10–2:16 (6s)**
+**Plano 6.1 — 2:10–2:16 (6s)**
 ```
 Wide shot, low static angle. Dark hostile corporate drones rise from the ocean surface, 
 surrounding the base of Anchor Node 7 with red targeting laser beams sweeping the water. 
 Night, ominous mood.
 ```
 
-**Plano 7.2 — 2:16–2:22 (6s)**
+**Plano 6.2 — 2:16–2:22 (6s)**
 ```
 Medium wide shot, handheld camera with movement tension. The Benteveo struggles to turn 
 with the wind against it, waves slapping the hull, drones closing in. Wind-driven spray on lens.
 ```
 
-**Plano 7.3 — 2:22–2:30 (8s)**
+**Plano 6.3 — 2:22–2:30 (8s)**
 ```
 Close-up, static camera, slow push-in. Sofía (9) presses Alfi firmly. The nanotech robotic pet 
 glows in an intense bioluminescent blue light blast that expands outward, rippling into the 
@@ -201,16 +201,16 @@ water beneath the Benteveo. Awe-filled, magical lighting shift from red to blue.
 
 ---
 
-## Escena 08 — Fauna marina y reinicio (2:30–2:45)
+## Escena 07 — Fauna marina y reinicio (2:30–2:45)
 
-**Plano 8.1 — 2:30–2:37 (7s)**
+**Plano 7.1 — 2:30–2:37 (7s)**
 ```
 Cinematic wide shot, slow tracking camera. Wild humpback whales and dolphins leap out of the 
 stormy ocean water amid glowing blue acoustic waves. The hostile drones flicker, disorient, and 
 scatter away. Epic, awe-inspiring scale.
 ```
 
-**Plano 8.2 — 2:37–2:45 (8s)**
+**Plano 7.2 — 2:37–2:45 (8s)**
 ```
 Tracking shot, handheld urgency. Mateo (15) and Clara (42) run along the wet metal walkways of 
 Anchor Node 7 under wild lightning strikes, arriving in front of a giant outdoor screen terminal, 
@@ -219,16 +219,16 @@ wind howling around them.
 
 ---
 
-## Escena 09 — El regreso (2:45–3:00)
+## Escena 08 — El regreso (2:45–3:00)
 
-**Plano 9.1 — 2:45–2:52 (7s)**
+**Plano 8.1 — 2:45–2:52 (7s)**
 ```
 Medium shot, static camera, slow gentle push-in. The Martínez family stands together on the 
 deck of the Benteveo at a breathtaking, peaceful golden hour sunset. Glowing turquoise ocean 
 farms shine softly beneath the calm sea horizon behind them. Warm, hopeful, emotional.
 ```
 
-**Plano 9.2 — 2:52–3:00 (8s)**
+**Plano 8.2 — 2:52–3:00 (8s)**
 ```
 Slow continued push-in on the family, fading gently. On the final beat, cut to black and reveal 
 the title card "EL ECO DE LAS MAREAS / THE ECHO OF THE TIDES" in silver lettering over a 

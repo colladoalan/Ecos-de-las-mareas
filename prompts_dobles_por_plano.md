@@ -214,9 +214,9 @@ Medium shot at the stern transom. Tomás Martínez (45, dark hair with light gre
 Tomás grips the pull-cord and yanks — the old engine sputters, catches, and roars to life, a puff of exhaust visible in the cold air. Duration 7s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-## Escena 06 — La tormenta sintética y el recuerdo (1:40–2:10)
+## Escena 05 — La tormenta sintética y el recuerdo (1:40–2:10)
 
-### Plano 6.1 — Directo a la tormenta (1:40–1:47)
+### Plano 5.1 — Directo a la tormenta (1:40–1:47)
 
 **Encuadre:** 24mm wide lens, f/4, dynamic handheld
 
@@ -229,7 +229,7 @@ Fast-paced wide shot of Clara Martínez (42, wavy chestnut-brown hair now wind-b
 Dynamic handheld camera shaking with the Benteveo's motion as it crashes through waves; lightning flashes twice during the shot. IMAX-scale drama. Duration 7s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 6.2 — Tomás con la llave inglesa (1:47–1:53)
+### Plano 5.2 — Tomás con la llave inglesa (1:47–1:53)
 
 **Encuadre:** 50mm lens, f/2.8, handheld
 
@@ -242,7 +242,7 @@ Medium close-up of Tomás Martínez (45, dark hair with light grey at the temple
 Tomás works the wrench with effort, wind whipping his hair and clothes, brief lightning flash lighting the whole frame once. Subtle handheld sway. Duration 6s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 6.3 — Clara y la brújula (1:53–1:59)
+### Plano 5.3 — Clara y la brújula (1:53–1:59)
 
 **Encuadre:** 50mm lens, f/2.2, static
 
@@ -255,7 +255,7 @@ Medium close-up of Clara Martínez (42, wavy chestnut-brown hair damp and wind-b
 Clara reads the compass with total focus, tilting it slightly toward the light; one lightning flash illuminates her face mid-shot. Static camera. Duration 6s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 6.4 — Mateo y la consola (1:59–2:05)
+### Plano 5.4 — Mateo y la consola (1:59–2:05)
 
 **Encuadre:** 50mm lens, f/2.0, slight push-in
 
@@ -268,7 +268,7 @@ Close-up of Mateo Martínez (15, dark wavy hair, light hazel-green eyes, freckle
 Mateo's hands move rapidly over the schematics and switches, brief worried glance up toward the storm outside. Slow push-in, minimal camera movement. Duration 6s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 6.5 — El baúl del abuelo (2:05–2:10)
+### Plano 5.5 — El baúl del abuelo (2:05–2:10)
 
 **Encuadre:** 35mm lens, f/2.8, static
 
@@ -281,9 +281,9 @@ Medium shot inside the Benteveo's warm wooden cabin, contrasting with the cold s
 Clara's hands unfold the map slowly, camera drifts down to reveal the photographs beside it. Static camera with a slow gentle tilt down. Duration 5s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-## Escena 07 — El cerco (2:10–2:30)
+## Escena 06 — El cerco (2:10–2:30)
 
-### Plano 7.1 — Drones hostiles (2:10–2:16)
+### Plano 6.1 — Drones hostiles (2:10–2:16)
 
 **Encuadre:** 24mm wide lens, f/4, low angle static
 
@@ -296,7 +296,7 @@ Wide low-angle shot at night. Dark hostile corporate drones rise from the ocean 
 Drones ascend in a staggered sequence, red lasers sweeping and converging toward the Benteveo. Static camera, ominous mood. Duration 6s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 7.2 — El Benteveo acorralado (2:16–2:22)
+### Plano 6.2 — El Benteveo acorralado (2:16–2:22)
 
 **Encuadre:** 35mm lens, f/2.8, handheld
 
@@ -309,7 +309,7 @@ Medium-wide handheld shot of the Benteveo struggling against wind and current ne
 The boat rocks and strains to turn, spray hitting the lens, drones visibly closing in from multiple angles. Tense handheld movement. Duration 6s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 7.3 — El pulso de Alfi (2:22–2:30)
+### Plano 6.3 — El pulso de Alfi (2:22–2:30)
 
 **Encuadre:** 50mm lens, f/2.0, slow push-in
 
@@ -322,9 +322,9 @@ Close-up of Sofía Martínez (9, light brown hair in a loose braid, pale blue-gr
 Alfi glows in an intense bioluminescent blue light blast that expands outward and ripples into the water beneath the Benteveo; the harsh red drone light softens as blue overtakes the frame. Slow push-in. Duration 8s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-## Escena 08 — Fauna marina y reinicio (2:30–2:45)
+## Escena 07 — Fauna marina y reinicio (2:30–2:45)
 
-### Plano 8.1 — Ballenas y delfines (2:30–2:37)
+### Plano 7.1 — Ballenas y delfines (2:30–2:37)
 
 **Encuadre:** 24mm wide lens, f/4, tracking
 
@@ -337,7 +337,7 @@ Cinematic wide shot of wild humpback whales and dolphins leaping out of the stor
 Whales breach in sequence as the camera tracks alongside; in the background, hostile drones flicker, disorient, and scatter away into the dark. Slow tracking movement. Duration 7s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 8.2 — Corriendo al terminal (2:37–2:45)
+### Plano 7.2 — Corriendo al terminal (2:37–2:45)
 
 **Encuadre:** 35mm lens, f/2.8, handheld tracking
 
@@ -350,9 +350,9 @@ Tracking shot at night. Mateo (15) and Clara (42) run along the wet metal walkwa
 Camera tracks behind and beside them as they run, arriving in front of a giant outdoor screen terminal, breathless, drenched. Urgent handheld tracking. Duration 8s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-## Escena 09 — El regreso (2:45–3:00)
+## Escena 08 — El regreso (2:45–3:00)
 
-### Plano 9.1 — La familia en cubierta (2:45–2:52)
+### Plano 8.1 — La familia en cubierta (2:45–2:52)
 
 **Encuadre:** 35mm lens, f/2.8, static push-in
 
@@ -365,7 +365,7 @@ Medium shot of the Martínez family — Clara, Tomás, Mateo, and Sofía — sta
 The family stands embraced, gentle sea breeze moving their hair and clothes, calm and warm. Slow, barely perceptible push-in. Duration 7s. Anamorphic 35mm lens, moody cinematic lighting, teal and copper palette, volumetric fog, oval bokeh, subtle film grain. 24fps, smooth continuous single take, natural cinematic motion blur, 16:9, no cuts.
 ```
 
-### Plano 9.2 — Cierre y título (2:52–3:00)
+### Plano 8.2 — Cierre y título (2:52–3:00)
 
 **Encuadre:** 50mm lens, f/2.8, slow push-in then fade
 
