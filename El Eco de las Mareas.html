@@ -391,6 +391,53 @@
     font-family:'IBM Plex Mono',monospace;
     font-size:11px;
   }
+  .thumb-empty{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:repeating-linear-gradient(45deg, #0d1c2b, #0d1c2b 10px, #0a1620 10px, #0a1620 20px);
+    color:#5f7280;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    text-align:center;
+  }
+  .thumb-delete-btn{
+    width:100%;
+    box-sizing:border-box;
+    padding:6px 10px;
+    background:rgba(194,68,68,0.15);
+    border:none;
+    border-top:1px solid rgba(194,68,68,0.3);
+    color:#f2b0b0;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    cursor:pointer;
+  }
+  .thumb-delete-btn:hover{ background:rgba(194,68,68,0.28); }
+  .add-plano-btn, .add-escena-btn{
+    background:rgba(45,212,200,0.08);
+    border:1px dashed rgba(45,212,200,0.4);
+    color:#7fe8dc;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:.04em;
+    padding:14px;
+    border-radius:6px;
+    cursor:pointer;
+    aspect-ratio:16/9;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .add-escena-btn{
+    aspect-ratio:auto;
+    width:100%;
+    padding:16px;
+    margin-top:6px;
+  }
+  .add-plano-btn:hover, .add-escena-btn:hover{ background:rgba(45,212,200,0.16); }
 
   .comments-toggle{
     margin:10px 0 18px;
@@ -859,44 +906,44 @@ const TRAILER_GALLERY = [
     esc: '01',
     title: 'Escena 01 — El mundo que heredamos',
     images: [
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_1_1.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_1_1_full.png', label: 'Plano 1.1 — Vista aérea nocturna del Nodo Ancla 7'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_1_2.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_1_2_full.png', label: 'Plano 1.2 — Panel de diagnóstico (estado nominal)'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_1_3.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_1_3_full.png', label: 'Plano 1.3 — Panel de diagnóstico (alerta roja)'}
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_1_1.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_1_1_full.png', label: 'Plano 1.1 — Vista aérea nocturna del Nodo Ancla 7'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_1_2.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_1_2_full.png', label: 'Plano 1.2 — Panel de diagnóstico (estado nominal)'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_1_3.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_1_3_full.png', label: 'Plano 1.3 — Panel de diagnóstico (alerta roja)'}
     ]
   },
   {
     esc: '02',
     title: 'Escena 02 — Domingo en familia',
     images: [
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_2_0.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_2_0_full.png', label: 'Plano 2.0 — Vista aérea de Mar del Plata'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_2_1.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_2_1_full.png', label: 'Plano 2.1 — El asado (Tomás)'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_2_2.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_2_2_full.png', label: 'Plano 2.2 — Mateo mira su visor holográfico con apatía'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_2_3.jpg?v=3', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_2_3_full.png', label: 'Plano 2.3 — Sofía corre por el deck con Alfi, que parpadea feliz'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_2_4.jpg?v=3', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_2_4_full.png', label: 'Plano 2.4 — Clara está parada frente a su terminal'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_2_5.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_2_5_full.png', label: 'Plano 2.5 — Clara sale de la casa'}
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_2_0.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_2_0_full.png', label: 'Plano 2.0 — Vista aérea de Mar del Plata'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_2_1.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_2_1_full.png', label: 'Plano 2.1 — El asado (Tomás)'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_2_2.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_2_2_full.png', label: 'Plano 2.2 — Mateo mira su visor holográfico con apatía'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_2_3.jpg?v=3', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_2_3_full.png', label: 'Plano 2.3 — Sofía corre por el deck con Alfi, que parpadea feliz'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_2_4.jpg?v=3', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_2_4_full.png', label: 'Plano 2.4 — Clara está parada frente a su terminal'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_2_5.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_2_5_full.png', label: 'Plano 2.5 — Clara sale de la casa'}
     ]
   },
   {
     esc: '03',
     title: 'Escena 03 — Zarpando',
     images: [
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_3_0.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_3_0_full.png', label: 'Plano 3.0 — Vista aérea del puerto de Mar del Plata'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_3_1b.jpg?v=2', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_3_1b_full.png', label: 'Plano 3.1b — La familia camina hacia el Benteveo'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_3_2b.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_3_2b_full.png', label: 'Plano 3.2b — El Benteveo zarpando'}
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_3_0.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_3_0_full.png', label: 'Plano 3.0 — Vista aérea del puerto de Mar del Plata'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_3_1b.jpg?v=2', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_3_1b_full.png', label: 'Plano 3.1b — La familia camina hacia el Benteveo'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_3_2b.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_3_2b_full.png', label: 'Plano 3.2b — El Benteveo zarpando'}
     ]
   },
   {
     esc: '04',
     title: 'Escena 04 — El bloqueo',
     images: [
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_1.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_1_full.png', label: 'Plano 4.1 — Las boyas, tormenta acercándose'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_2.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_2_full.png', label: 'Plano 4.2 — Tomás al timón, sistema normal'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_2b.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_2b_full.png', label: 'Plano 4.2b — El sistema se bloquea, motor apagado'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_4.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_4_full.png', label: 'Plano 4.4 — Mateo revisa el sistema eléctrico bajo cubierta'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_5.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_5_full.png', label: 'Plano 4.5 — El dron de Vortex: "Sistema bloqueado, vuelva a la costa"'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_6.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_6_full.png', label: 'Plano 4.6 — Tomás tira de la palanca del motor diesel'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_7.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_7_full.png', label: 'Plano 4.7 — El motor diesel de repuesto arranca'},
-      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/plano_4_8.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/trailer/full/plano_4_8_full.png', label: 'Plano 4.8 — Clara, Mateo y Sofía revisan el mapa en la tablet'}
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_1.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_1_full.png', label: 'Plano 4.1 — Las boyas, tormenta acercándose'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_2.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_2_full.png', label: 'Plano 4.2 — Tomás al timón, sistema normal'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_2b.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_2b_full.png', label: 'Plano 4.2b — El sistema se bloquea, motor apagado'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_4.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_4_full.png', label: 'Plano 4.4 — Mateo revisa el sistema eléctrico bajo cubierta'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_5.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_5_full.png', label: 'Plano 4.5 — El dron de Vortex: "Sistema bloqueado, vuelva a la costa"'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_6.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_6_full.png', label: 'Plano 4.6 — Tomás tira de la palanca del motor diesel'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_7.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_7_full.png', label: 'Plano 4.7 — El motor diesel de repuesto arranca'},
+      {file: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/plano_4_8.jpg?v=1', full: 'https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/trailer/full/plano_4_8_full.png', label: 'Plano 4.8 — Clara, Mateo y Sofía revisan el mapa en la tablet'}
     ]
   }
 ];
@@ -918,15 +965,23 @@ function renderTrailer(){
     html += '<button class="comments-toggle" data-esc-term="escena-' + escGroup.esc + '" data-esc-title="' + escGroup.title + '">💬 Comentarios generales de esta escena</button>';
     html += '<div class="trailer-grid" data-gi="' + gi + '">';
     escGroup.images.forEach((img, ii) => {
+      const hasFile = img.file && img.file.length > 0;
       html += '<div class="trailer-thumb' + (editMode ? ' editing' : '') + '" draggable="' + editMode + '" data-gi="' + gi + '" data-ii="' + ii + '">' +
-              '<div class="frame16-9"><img src="' + img.file + '" alt="' + img.label + '"></div>' +
+              '<div class="frame16-9">' + (hasFile ? '<img src="' + img.file + '" alt="' + img.label + '">' : '<div class="thumb-empty">Sin imagen todavía</div>') + '</div>' +
               (editMode
-                ? '<input class="thumb-label-input" data-gi="' + gi + '" data-ii="' + ii + '" value="' + img.label.replace(/"/g,'&quot;') + '">'
+                ? '<input class="thumb-label-input" data-gi="' + gi + '" data-ii="' + ii + '" value="' + img.label.replace(/"/g,'&quot;') + '">' +
+                  '<button class="thumb-delete-btn" data-gi="' + gi + '" data-ii="' + ii + '">✕ Quitar</button>'
                 : '<div class="thumb-label">' + img.label + '</div>') +
               '</div>';
     });
+    if (editMode) {
+      html += '<button class="add-plano-btn" data-gi="' + gi + '">+ Agregar plano</button>';
+    }
     html += '</div></div>';
   });
+  if (editMode) {
+    html += '<button class="add-escena-btn">+ Agregar escena nueva</button>';
+  }
   html += '</div>';
   main.innerHTML = html;
 
@@ -944,6 +999,33 @@ function renderTrailer(){
   if (editMode) {
     const exportBtn = document.getElementById('exportChangesBtn');
     if (exportBtn) exportBtn.addEventListener('click', exportGalleryChanges);
+
+    main.querySelectorAll('.add-plano-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const gi = parseInt(btn.dataset.gi, 10);
+        const n = TRAILER_GALLERY[gi].images.length + 1;
+        TRAILER_GALLERY[gi].images.push({file: '', full: '', label: 'Plano nuevo ' + TRAILER_GALLERY[gi].esc + '.' + n + ' — completar descripción'});
+        renderTrailer();
+      });
+    });
+
+    document.querySelector('.add-escena-btn')?.addEventListener('click', () => {
+      const n = TRAILER_GALLERY.length + 1;
+      const escNum = String(n).padStart(2, '0');
+      TRAILER_GALLERY.push({esc: escNum, title: 'Escena ' + escNum + ' — completar título', images: []});
+      renderTrailer();
+    });
+
+    main.querySelectorAll('.thumb-delete-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const gi = parseInt(btn.dataset.gi, 10);
+        const ii = parseInt(btn.dataset.ii, 10);
+        if (confirm('¿Quitar este plano de la galería?')) {
+          TRAILER_GALLERY[gi].images.splice(ii, 1);
+          renderTrailer();
+        }
+      });
+    });
 
     main.querySelectorAll('.thumb-label-input').forEach(inp => {
       inp.addEventListener('click', (e) => e.stopPropagation());
@@ -984,7 +1066,7 @@ function renderTrailer(){
       thumb.addEventListener('click', () => {
         const gi = parseInt(thumb.dataset.gi, 10);
         const ii = parseInt(thumb.dataset.ii, 10);
-        openGalleryLightbox(gi, ii);
+        if (TRAILER_GALLERY[gi].images[ii].file) openGalleryLightbox(gi, ii);
       });
     });
   }
