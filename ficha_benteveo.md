@@ -7,9 +7,9 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre el barco
 
 ---
 
-![Referencia real 1 — navegando, logo del pájaro en la vela](assets/benteveo_ref_1.jpg)
-![Referencia real 2 — nombre en el espejo de popa, vela con logo](assets/benteveo_ref_2.jpg)
-![Referencia real 3 — vista de popa, borda de teca visible](assets/benteveo_ref_3.jpg)
+![Referencia real 1 — navegando, logo del pájaro en la vela](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/benteveo_ref_1.jpg)
+![Referencia real 2 — nombre en el espejo de popa, vela con logo](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/benteveo_ref_2.jpg)
+![Referencia real 3 — vista de popa, borda de teca visible](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/benteveo_ref_3.jpg)
 *Fotos de referencia actualizadas del equipo (reemplazan a la tanda anterior) — confirman el timón único, la matrícula 620772, el nombre "Benteveo" pintado en el espejo de popa, la bandera argentina en el pushpit de popa, la borda de teca a lo largo de la cubierta, y suman el logo nuevo: un pájaro estilizado tipo origami en la vela mayor, blanca y prolija con un panel de contraste azul marino — ya no se ve como vela vieja/destiñida.*
 
 ---

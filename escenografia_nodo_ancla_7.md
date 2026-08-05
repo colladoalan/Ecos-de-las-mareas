@@ -25,7 +25,7 @@
 
 **Diagrama de referencia ya armado** (ver imagen abajo) — muestra la zona de módulos circulares, el brazo ramificado, el hub central, los dos puertos, y las turbinas.
 
-![Diagrama Nodo Ancla 7](assets/diagrama_nodo_ancla_7.svg)
+![Diagrama Nodo Ancla 7](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/diagrama_nodo_ancla_7.svg)
 
 **Prompt de referencia (día, todo bien):**
 ```

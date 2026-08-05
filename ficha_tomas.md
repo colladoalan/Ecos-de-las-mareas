@@ -5,10 +5,10 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre Tomás. 
 
 ---
 
-![Ficha visual de referencia](assets/tomas.jpg)
+![Ficha visual de referencia](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/tomas.jpg)
 *Ficha visual de referencia subida por el equipo.*
 
-![Ficha visual completa de Tomás (referencia del equipo)](assets/tomas_ficha_completa.jpg)
+![Ficha visual completa de Tomás (referencia del equipo)](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/tomas_ficha_completa.jpg)
 *Ficha visual completa de Tomás (referencia del equipo) — ficha completa con perfiles, expresiones, cuerpo entero y detalles.*
 
 ## Datos básicos

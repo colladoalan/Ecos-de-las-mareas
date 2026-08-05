@@ -31,7 +31,7 @@ dynamic range.
 - Un rincón/oficina dentro de la casa, distinto del living o la cocina, con la terminal de pantallas holográficas transparentes donde Clara monitorea la red A.Q.U.A.
 - **Resuelto:** la terraza se conecta al living-comedor por un gran ventanal corredizo. La oficina de Clara es un ambiente separado con puerta propia, aunque tiene su propia ventana — ver diagrama abajo.
 
-![Diagrama Casa Martínez](assets/diagrama_casa_martinez.svg)
+![Diagrama Casa Martínez](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/diagrama_casa_martinez.svg)
 
 **Prompt de referencia:**
 ```

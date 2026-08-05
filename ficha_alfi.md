@@ -5,10 +5,10 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre Alfi. Do
 
 ---
 
-![Ficha visual de referencia](assets/alfi.jpg)
+![Ficha visual de referencia](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/alfi.jpg)
 *Diseño de referencia subido por el equipo.*
 
-![Segunda referencia de Alfi](assets/alfi_2.jpg)
+![Segunda referencia de Alfi](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/alfi_2.jpg)
 *Segunda imagen de referencia — mismo diseño (ojos ámbar, estrías azules), otro ángulo/ambiente.*
 
 ## Datos básicos

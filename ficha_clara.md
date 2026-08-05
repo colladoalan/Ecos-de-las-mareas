@@ -5,10 +5,10 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre Clara. E
 
 ---
 
-![Ficha visual de referencia](assets/clara.jpg)
+![Ficha visual de referencia](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/clara.jpg)
 *Ficha visual de referencia subida por el equipo.*
 
-![Ficha visual completa de Clara (referencia del equipo)](assets/clara_ficha_completa.jpg)
+![Ficha visual completa de Clara (referencia del equipo)](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/clara_ficha_completa.jpg)
 *Ficha visual completa de Clara (referencia del equipo) — ficha completa con perfiles, expresiones, cuerpo entero y detalles.*
 
 ## Datos básicos

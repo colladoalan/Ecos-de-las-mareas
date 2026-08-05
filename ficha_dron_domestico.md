@@ -5,10 +5,10 @@ Este archivo se va actualizando cada vez que definimos algo nuevo sobre el dron 
 
 ---
 
-![Render de referencia del dron doméstico](assets/dron_domestico.jpg)
+![Render de referencia del dron doméstico](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/dron_domestico.jpg)
 *Render de referencia subido por el equipo.*
 
-![Ficha visual completa](assets/ficha_drones_completa.jpg)
+![Ficha visual completa](https://raw.githubusercontent.com/colladoalan/Ecos-de-las-mareas/main/assets/ficha_drones_completa.jpg)
 *Ficha visual completa — vistas, especificaciones y modo servicio (referencia del equipo).*
 
 ## Resuelto — reemplaza a los "drones pajarito"
