@@ -630,7 +630,7 @@
 <header>
   <span class="eyebrow">El Eco de las Mareas · MESA CHICA</span>
   <h1>Centro de documentos</h1>
-  <span class="last-updated" id="lastUpdated">Última actualización: 5 ago 2026, 22:06 (ARG)</span>
+  <span class="last-updated" id="lastUpdated">Última actualización: cargando…</span>
   <button id="homeBtn" style="margin-left:auto;background:rgba(45,212,200,0.12);border:1px solid rgba(45,212,200,0.35);color:#EFE6D2;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:8px 16px;border-radius:4px;cursor:pointer;">← Inicio</button>
 </header>
 
@@ -906,6 +906,22 @@ document.getElementById('homeBtn').addEventListener('click', renderHome);
 
 // Vista inicial: el home, no un documento en particular
 renderHome();
+
+// ---- Última actualización (fecha del último commit en GitHub) ----
+fetch('https://api.github.com/repos/colladoalan/Ecos-de-las-mareas/commits/main')
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .then(data => {
+    const iso = data.commit.committer.date;
+    const d = new Date(iso);
+    const formatted = d.toLocaleString('es-AR', {
+      day: 'numeric', month: 'short', year: 'numeric',
+      hour: '2-digit', minute: '2-digit',
+      timeZone: 'America/Argentina/Buenos_Aires'
+    });
+    const el = document.getElementById('lastUpdated');
+    if (el) el.textContent = 'Última actualización: ' + formatted + ' (ARG)';
+  })
+  .catch(() => { /* si falla la API, se deja el texto por defecto del HTML */ });
 
 // ---- Galería del tráiler ----
 const TRAILER_GALLERY = [
