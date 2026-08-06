@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <style>
   :root{
     --ink:#0B1826;
@@ -1004,6 +1005,7 @@ function renderTrailer(){
   html += '<div class="trailer-links">📄 <a href="https://colladoalan.github.io/Ecos-de-las-mareas/assets/storyboard_el_eco_de_las_mareas.html" target="_blank">Ver el storyboard completo (guion, diálogos, CLIPs)</a></div>';
   html += '<div class="edit-bar">' +
           '<button id="editModeBtn" class="edit-toggle-btn">' + (editMode ? '✓ Modo edición activo' : '✏️ Editar orden y nombres') + '</button>' +
+          '<button id="downloadAllBtn" class="edit-toggle-btn">⬇️ Descargar toda la galería (.zip)</button>' +
           (editMode ? '<button id="exportChangesBtn" class="edit-toggle-btn export">📋 Copiar cambios para enviar</button><span class="edit-hint">Arrastrá las miniaturas para reordenar dentro de la escena. Hacé clic en un nombre para editarlo.</span>' : '') +
           '</div>';
 
@@ -1042,6 +1044,9 @@ function renderTrailer(){
     editMode = !editMode;
     renderTrailer();
   });
+
+  document.getElementById('downloadAllBtn').addEventListener('click', downloadAllGallery);
+
 
   if (editMode) {
     const exportBtn = document.getElementById('exportChangesBtn');
@@ -1117,6 +1122,54 @@ function renderTrailer(){
       });
     });
   }
+}
+
+async function downloadAllGallery(){
+  const btn = document.getElementById('downloadAllBtn');
+  if (!btn || btn.disabled) return;
+  const originalText = btn.textContent;
+  btn.disabled = true;
+
+  const jobs = [];
+  TRAILER_GALLERY.forEach(escGroup => {
+    const folder = 'Escena ' + escGroup.esc;
+    escGroup.images.forEach(img => {
+      if (!img.full) return;
+      const filename = img.full.split('/').pop().split('?')[0];
+      jobs.push({ url: img.full, path: folder + '/' + filename });
+    });
+  });
+
+  const zip = new JSZip();
+  let done = 0;
+  btn.textContent = '⬇️ Descargando 0/' + jobs.length + '...';
+
+  const results = await Promise.allSettled(jobs.map(job =>
+    fetch(job.url)
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.blob(); })
+      .then(blob => {
+        zip.file(job.path, blob);
+        done++;
+        btn.textContent = '⬇️ Descargando ' + done + '/' + jobs.length + '...';
+      })
+  ));
+
+  const failed = results.filter(r => r.status === 'rejected').length;
+
+  btn.textContent = '📦 Comprimiendo...';
+  const content = await zip.generateAsync({ type: 'blob' });
+  const url = URL.createObjectURL(content);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'El Eco de las Mareas - galeria completa.zip';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+
+  btn.disabled = false;
+  btn.textContent = failed > 0 ? '⬇️ Listo (' + failed + ' fallaron, reintentar)' : originalText;
+  if (failed === 0) setTimeout(() => { if (document.getElementById('downloadAllBtn')) btn.textContent = originalText; }, 3000);
 }
 
 function exportGalleryChanges(){
